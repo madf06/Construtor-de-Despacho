@@ -1,0 +1,10 @@
+CREATE TABLE trechos (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  conteudo TEXT NOT NULL
+);
+
+CREATE TABLE textos_montados (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  titulo TEXT,
+  conteudo TEXT
+);
