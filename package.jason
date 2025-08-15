@@ -1,0 +1,12 @@
+{
+  "name": "text-builder-app",
+  "version": "1.0.0",
+  "description": "Aplicativo para montar textos a partir de trechos selecionados",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
